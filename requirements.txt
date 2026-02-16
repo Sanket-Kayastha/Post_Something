@@ -7,4 +7,6 @@ Flask==2.3.2
 flask_sqlalchemy==3.1.1
 Flask
 gunicorn
-SQLAlchemy==2.0.25
+SQLAlchemy<2.1
+psycopg2-binary
+
